@@ -1,4 +1,4 @@
-#chapter 1 Assignment 
+
 class Country:
     def __init__(self, country_code, country_name, neighboring_countries):
         self.country_code = country_code
