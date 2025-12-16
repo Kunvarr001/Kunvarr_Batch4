@@ -60,7 +60,6 @@ main()
 
 # ASSIGNMENT 3 : ARMSTRONG NUMBER CHECK
 def calculate_armstrong_sum(number):
-    """Calculate the sum of digits each raised to the power of total digits."""
     digit_count = len(str(number))
     armstrong_sum = 0
     remaining_number = number
