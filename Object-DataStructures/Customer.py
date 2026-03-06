@@ -6,7 +6,7 @@ class Customer:
 
     def pay(self, amount_to_be_paid):
         if self.wallet.get_total_money() >= amount_to_be_paid:
-            self.wallet.subtract_money(amount_to_be_paid)
+            self.wallet.withdraw(amount_to_be_paid)
             return True
         return False
 
